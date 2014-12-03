@@ -1,7 +1,6 @@
 #!/bin/bash
-# This file is manages through chef server using https://github.com/cru-Luis-Rodriguez/aem_config_newrelic recipe
+# This file is manages through chef server using https://github.com/cru-Luis-Rodriguez/aem_config_newrelic recipe 
 # Do not make modification directly on the file as they will be over-written by chef.
-#
 # This script configures the start information for this server.
 #
 # The following variables may be used to override the defaults.
@@ -12,7 +11,7 @@
 
 # TCP port used for stop and status scripts
 if [ -z "$CQ_PORT" ]; then
-	CQ_PORT=4503
+	CQ_PORT=4502
 fi
 
 # hostname of the interface that this server should listen to
@@ -22,7 +21,7 @@ fi
 
 # runmode(s)
 if [ -z "$CQ_RUNMODE" ]; then
-	CQ_RUNMODE='publish'
+	CQ_RUNMODE='author'
 fi
 
 # name of the jarfile

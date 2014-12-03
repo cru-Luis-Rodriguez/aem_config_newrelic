@@ -52,7 +52,7 @@ end
         end
 
 	template "#{cq_dir}/author/crx-quickstart/bin/start" do
-    	source 'start.erb'
+    	source 'start_auth.erb'
         owner "cq"
 	group "cq"
     	mode 0755 
