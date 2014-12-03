@@ -1,17 +1,12 @@
 aem_confi_newrelic Cookbook
 =======================
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+This recipe is use to configure newrelics java agent for adobe's AEM.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+depends on newrelic recipe and pre-installed instance of AEM 
 
-e.g.
 #### packages
-- `toaster` - config_newrelic needs toaster to brown your bagel.
 
 Attributes
 ----------
@@ -65,4 +60,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: Luis A.Rodriguez
